@@ -1,0 +1,81 @@
+Test your knowledge on the retro video game history
+
+1. Who is the lead playable character wearing green custume in Legend of Zelda?
+a. Zelda
+b. Samus
+c. Mario
+d. Link
+
+Answer: d - Link is the main lead character. Zelda is the princess of Hyrule. (https://en.wikipedia.org/wiki/Characters_of_The_Legend_of_Zelda)
+
+2. Which company originally planned to work with Nintendo to develop Compact Disc module for Super Nintendo, but later ended up releasing its own gaming console?
+a. Sony
+b. Panasonic
+c. Sega
+d. Microsoft
+
+Answer: a - Sony initially worked with Nintendo, but the collaboration did not result in any actual product, well, for Nintendo. Based on this experience, Sony developed and released its own gaming console "PlayStation," and the rest is the history. (https://en.wikipedia.org/wiki/PlayStation#Origins)
+
+3. What is the original name of Blizzard Entertainment?
+a. Simon & Garfunkel
+b. Storm & Icewind
+c. Silicon & Synapse
+d. Neuron & Lightening
+
+Answer: c - Silicon & Synapse was established in February 1991. Before they changed their name to Billizard and released WarCraft in 1994, the company's main business was conversion of PC games for Mac or Amiga. (https://en.wikipedia.org/wiki/Blizzard_Entertainment#History)
+
+4. Which title of the Super Mario series for North America is completely different from Japanese one?
+a. The original Super Mario Bros.
+b. Super Mario Bros. 2
+c. Super Mario Bros. 3
+d. Super Mario Galaxy
+
+Answer: b - Nintendo thought original Super Mario Bros. 2 was too difficult for American gamers. 'Doki Doki Panic' was instead converted with Mario-themed skin and named as the sequel of Super Mario Bros. in North America. (https://en.wikipedia.org/wiki/Super_Mario_Bros._2)
+
+5. Which of Nintendo frenchise was not initiated by the legendary 'Shigeru Miyamoto'?
+a. Super Mario Bros.
+b. The Legend of Zelda
+c. Metroid
+d. F-Zero
+
+Answer: c - Metroid was initiated by Miyamoto's mentor, Gunpei Yokoi, who also created the original Game Boy. (https://en.wikipedia.org/wiki/Metroid_(video_game))
+
+6. Which is the right order for the release dates of the arcade classics? (From earlier to later)
+a. Pong - Spacewar! - Pac Man - Space Invaders
+b. Spacewar! - Space Invaders - Pong - Pac Man
+c. Space Invaders - Spacewar! - Pac Man - Pong
+d. Spacewar! - Pong - Space Invaders - Pac Man
+
+Answer: d - Spacewar! (1962) - Pong (1972) - Space Invaders (1979) - Pac Man (1981)
+
+7. Which one is the game Steve Jobs and Steve Wozniak were closely related to the development when they were young?
+a. Advanture
+b. Breakout
+c. Asteriods
+d. Missile Command
+
+Answer: b - Based on huge success of Pong, Atari wanted to make single player game similar to Pong. Jobs was around the time tasked to produce circuit board design of the game, and he asked Steve 'Woz' Wozniak to work with him to share the bonus. The combi delivered the design, but Atari could not use it because it was too complicated to mass-produce the circuit. (https://en.wikipedia.org/wiki/Breakout_(video_game)#History_and_development) 
+
+8. Which video game frenchise is not from Konami?
+a. Ridge Racer
+b. Castlebania
+c. Contra
+d. Metal gear
+
+Answer: a - Ridge Racer is from Namco.
+
+9. Which item is of different kind?
+a. Power Pellets in Pac Man
+b. Super Mushroom in Super Mario Bros.
+c. Fruits in Wonder Boy
+d. Power Bomb in Metroid
+
+Answer: c - Power Pellets, Super Mushroom and Power Bomb are power-up items, while Fruits in Wonder Boy increases HP.
+
+10. What is the best way when a NES catridge is not working?
+a. Open the catridge and change the battery
+b. Pull the catridge out of the slot and put it in again
+c. Blow dusts out of the catridge and put it in again
+d. Throw the catridge into the floor and crash it 
+
+Answer: b - Contrary to the common belief that the blowing the catridge would "clean up" and help the connection, this action has nothing to do with fixing the connection. Actually, the moisture in your breath may damage the game. (https://www.geekwire.com/2014/blow-nintendo-games/)

@@ -1,0 +1,116 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.5rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.quiz-title {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quiz-start {
+    margin: 20px 10px 50px 10px;
+}
+
+fieldset {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border: none;
+  }
+
+/* question page */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.quiz-number {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.quiz-score {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.question {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.answer-box {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.answer-box:hover {
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+}
+
+.submit {
+    margin: 10px;
+}
+
+button {
+    font-size: 1rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* answer page */
+
+.result {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+}
+
+.explanation {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 5px;
+}
