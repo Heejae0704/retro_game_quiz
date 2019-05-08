@@ -94,7 +94,7 @@ function renderAnswer(bool){
     }
     const obj = DATA[Number(quizNum)-1]
     let answerHtml = `
-    <p>${isCorrectString}</p>
+    <p class="isCorrect">${isCorrectString}</p>
     <img src="${obj.image}" alt="${obj.imageText}">
     <article class="explanation">
         <p>${obj.explanation}</p>
@@ -138,7 +138,7 @@ function renderResult(num){
     if (quizScore > 7) {
         resultString = "You are a true retro gamer!"
     } else if (quizScore > 4) {
-        resultString = "Impressive. You witnessed retro era!"
+        resultString = "Impressive. You witnessed the retro era!"
     } else if (quizScore > 2) {
         resultString = "Nice job. Seems that you have heard about retro games."
     } else {
