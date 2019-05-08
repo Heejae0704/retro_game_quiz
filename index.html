@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Retro Video Game Quiz</title>
-    <meta name="description" content="Test your knowledge on the retro video game history with 10 interesting questions.">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Retro Video Game Quiz</title>
+        <meta name="description" content="Test your knowledge on the retro video game history with 10 interesting questions.">
 
-    <!-- google webfont -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Press+Start+2P" rel="stylesheet">
+        <!-- google webfont -->
+        <link href="https://fonts.googleapis.com/css?family=Lato|Press+Start+2P" rel="stylesheet">
 
-    <!-- my stylesheet -->
-    <link rel="stylesheet" type="text/css" href="main.css">
+        <!-- my stylesheet -->
+        <link rel="stylesheet" type="text/css" href="main.css">
 
-    <!-- favicon (generated with https://realfavicongenerator.net/ -->
-    <link rel="shortcut icon" href="favicon/favicon.ico">
+        <!-- favicon (generated with https://realfavicongenerator.net/ -->
+        <link rel="shortcut icon" href="favicon/favicon.ico">
 
-</head>
-<body>
-    <main role="main">
-        <header class="quiz-title text-center">
-            <h1>Retro video game quiz</h1>
-        </header>
-        <img src="image/noun_Question_box_882769.png" alt="question box">
-        <section class="quiz-start text-center">
-                <p>Take this 10 questions quiz challenge and see if you have real love for retro games!</p>
-                <form action="quizpage.html" class="text-center">
-                    <button type="submit">Start</button>
+    </head>
+    <body>
+        <nav role="nav">
+            <div class="quiz-number hidden">Stage 0/10</div>
+            <h1 class="title">Retro video game quiz</h1>
+            <div class="quiz-score hidden">Score 00</div>
+        </nav>
+        <main role="main">
+            <section class="landing-page text-center">
+                <img src="image/001_question_box_500px.png" alt="question box">
+                <p class="intro">Take this 10 questions quiz challenge and see if you have real love for retro games!</p>
+                <button type="submit" id="start-button">Start</button>
+            </section>
+            <section class="question-page hidden">
+                <form>
+                    <fieldset class="question-with-choices"></fieldset>
+                    <div class="text-center">
+                        <button type="submit" id="question-page-button">Submit</button>
+                    </div>
                 </form>
-        </section>
-    </main>
-</body>
+            </section>
+            <section class="answer-page text-center hidden">
+                <div class="js-answer">
+                </div>
+                <button type="submit" class="answer-page-button">Next question</button>
+                <button type="submit" class="to-result-button hidden">See the result</button>
+            </section>
+            <section class="result-page text-center hidden">
+                <div class="js-result">
+                </div>       
+                <button type="submit" id="start-over">Start over</button>
+            </section> 
+        </main>
+        <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+        <script src="data.js"></script>
+        <script src="main.js"></script>
+    </body>
 </html>
