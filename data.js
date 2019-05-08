@@ -100,7 +100,7 @@ const DATA = [
             answer: "b",
             image: "image/10_breakout.png",
             imageText: "breakout",
-            explanation: 'Based on huge success of Pong, Atari wanted to make single player game similar to Pong. Jobs was around the time tasked to produce circuit board design of the game, and he asked Wozniak to work with him to share the bonus. The combi delivered the design, but Atari could not use it because it was too complicated to mass-produce the circuit.<br><a href="https://en.wikipedia.org/wiki/Breakout_(video_game)#History_and_development)" target="_blank">Want to know more?</a>'
+            explanation: 'Based on huge success of Pong, Atari wanted to make single player game similar to Pong. Jobs was around the time tasked to produce circuit board design of the game \'Breakout\', and he asked Wozniak to work with him to share the bonus. The combi delivered the design, but Atari could not use it because it was too complicated to mass-produce the circuit.<br><a href="https://en.wikipedia.org/wiki/Breakout_(video_game)#History_and_development)" target="_blank">Want to know more?</a>'
 
     },
     {
@@ -145,7 +145,7 @@ const DATA = [
             answer: "b",
             image: "image/007_catridge.png",
             imageText: "game catridge",
-            explanation: 'Contrary to the common belief that the blowing the catridge would \'clean up\' and help the connection, this action has nothing to do with fixing the connection. Actually, the moisture in your breath may damage the game.<br><a href="https://www.geekwire.com/2014/blow-nintendo-games/" target="_blank">Want to know more?</a>'
+            explanation: 'All you need to do is just pull out the catridge and put it again. Contrary to the common belief that blowing the catridge would \'clean up\' and help the connection, this action has nothing to do with fixing the connection. Actually, the moisture in your breath may damage the game.<br><a href="https://www.geekwire.com/2014/blow-nintendo-games/" target="_blank">Want to know more?</a>'
         }
 
 ];

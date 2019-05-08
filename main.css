@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 
-
 html {
     font-size: 16px;
 }
@@ -11,8 +10,9 @@ body {
     margin: 0;
     font-size: 1.3rem;
     font-family: 'Lato', sans-serif;
-    background-image: url(image/background.png);
+    /* background-image: url(image/background.png); */
     background-repeat: repeat;
+    color: #3A3F45;
 }
 
 main {
@@ -21,6 +21,16 @@ main {
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #196394;
+    transition: all 300ms ease-in-out;
+}
+
+a:hover{
+    color: #6a9214
 }
 
 .hidden {
@@ -34,7 +44,7 @@ main {
 nav {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: #3A3F45;
     color: white;
     padding: 10px 10px 10px 10px;
     align-items: center;
@@ -64,6 +74,7 @@ nav {
 
     .explanation {
         border: 1px solid black;
+        border-radius: 3px;
         margin: 20px;
         padding: 5px;
         background-color: white;
@@ -95,7 +106,7 @@ nav {
     .explanation {
         border: 1px solid black;
         margin: 20px;
-        padding: 5px;
+        padding: 10px;
         background-color: white;
         font-size: 1em;
     }
@@ -138,11 +149,12 @@ fieldset {
     border: 1px solid gray;
     background-color: lightgray;
     cursor: pointer;
+    transition: all 200ms ease-in-out;
 }
 
 .answer-box:hover {
     border: 1px solid gray;
-    background-color: black;
+    background-color: #3A3F45;
     color: white;
 }
 
@@ -154,10 +166,11 @@ button {
     border: 1px solid gray;
     margin-top: 20px;
     margin-bottom: 20px;
+    transition: all 300ms ease-in-out;
 }
 
 button:hover {
-    background-color: black;
+    background-color:#3A3F45;
     color: white;
     cursor: pointer;
 }
