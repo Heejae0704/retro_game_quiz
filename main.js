@@ -11,7 +11,6 @@ function toggleHidden(selector){
 }
 
 function getQuestionString(obj){
-    console.log("generating questionString");
     return `
     <fieldset>
         <legend class="question">${obj.question}</legend>
@@ -37,7 +36,6 @@ function getQuestionString(obj){
 
 function renderQuestion(num, arr){
     let quizObj = arr[num];
-    console.log(quizObj);
     const questionString = getQuestionString(quizObj);
     $('.question-with-choices').html(questionString);
 }
@@ -54,7 +52,6 @@ function startQuiz(){
 }
 
 function handleSelection(){
-    console.log("handleSelection function ran")
     $('.question-with-choices').on('click', '.answer-box', function(e){
         e.stopPropagation();
         $(this).find('input').prop('checked', true);
@@ -64,7 +61,6 @@ function handleSelection(){
 function getCheckedChoice(){
     const checkedChoiceSelector = `input[name=${quizNum}]:checked`
     const checkedChoice = $(checkedChoiceSelector).val();
-    console.log("checked choice is " + checkedChoice);
     return checkedChoice;
 }
 
@@ -104,7 +100,6 @@ function renderAnswer(bool){
 }
 
 function handleSubmission(){
-    console.log("handleSubmission function ran")
 
     $('#question-page-button').click(function(e){
         e.preventDefault();
@@ -122,7 +117,6 @@ function handleSubmission(){
 }
 
 function handleToNextQuestion(){
-    console.log("handleToNextQuestion function ran")
 
     $('.answer-page-button').click(function(){
         renderQuestion(quizNum, DATA);
@@ -133,7 +127,6 @@ function handleToNextQuestion(){
 }
 
 function renderResult(num){
-    console.log("renderResult function ran!")
     let resultString;
     if (quizScore > 7) {
         resultString = "You are a true retro gamer!"
@@ -153,8 +146,6 @@ function renderResult(num){
 }
 
 function toResultPage(){
-    console.log("toResultPage function ran")
-
     $('.to-result-button').click(function(){
         renderResult(quizScore);
         toggleHidden('.answer-page');
@@ -163,7 +154,6 @@ function toResultPage(){
 }
 
 function handleDoItAgain(){
-    console.log("handleDoItAgain function ran")
     $('#start-over').click(function(){
         quizNum = 0;
         quizScore = 0;
