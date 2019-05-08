@@ -172,6 +172,8 @@ function handleDoItAgain(){
         toggleHidden('.quiz-number');
         $('.quiz-score').text("Score 00");
         toggleHidden('.quiz-score');
+        toggleHidden('.answer-page-button');
+        toggleHidden('.to-result-button');
     })
 
 }
